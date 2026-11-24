@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- ✏️ Sekme başlığı -->
+ <title>AD SOYAD | Resume</title>
+ <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <!--
+   NASIL DOLDURULUR?
+   - Her metin iki kez yazılı: <span class="en">İngilizce</span><span class="tr" lang="tr">Türkçe</span>
+     İkisini de doldur; sağ üstteki "Türkçe" kutusu dili değiştirir.
+   - ✏️ işaretli yerler senin bilgilerin.
+   - Fazla <article> bloklarını silebilir, yenilerini kopyalayıp ekleyebilirsin.
+   - Fotoğraflarını images/ klasörüne koy ve src="images/..." adlarını değiştir.
+ -->
+ <header>
+  <nav class="topbar" aria-label="Main menu">
+   <div class="nav wrap">
+    <a class="brand" href="#top">AD SOYAD</a> <!-- ✏️ -->
+    <div class="nav-links">
+     <a href="about.html"><span class="en">About</span><span class="tr" lang="tr">Hakkımda</span></a>
+     <a href="#experience"><span class="en">Experience</span><span class="tr" lang="tr">Deneyim</span></a>
+     <a href="#education"><span class="en">Education</span><span class="tr" lang="tr">Eğitim</span></a>
+     <a href="#skills"><span class="en">Skills</span><span class="tr" lang="tr">Beceriler</span></a>
+     <a href="#projects"><span class="en">Projects</span><span class="tr" lang="tr">Projeler</span></a>
+     <a href="#contact"><span class="en">Contact</span><span class="tr" lang="tr">İletişim</span></a>
+     <label class="switch"><input type="checkbox" id="lang-toggle"> <span class="en">Türkçe</span><span class="tr" lang="tr">English</span></label>
+     <label class="switch"><input type="checkbox" id="theme-toggle"> <span class="en">Theme</span><span class="tr" lang="tr">Tema</span></label>
+    </div>
+   </div>
+  </nav>
+ </header>
+
+ <main id="top">
+  <!-- ===== GİRİŞ (HERO) ===== -->
+  <section class="hero" aria-labelledby="page-name">
+   <div class="hero-inner wrap">
+    <div>
+     <p class="eyebrow"><span class="en">Your Title (e.g. Student)</span><span class="tr" lang="tr">Unvanın (ör. Öğrenci)</span></p> <!-- ✏️ -->
+     <h1 id="page-name">AD SOYAD</h1> <!-- ✏️ -->
+     <p class="role"><span class="en">Field 1 · Field 2 · Field 3</span><span class="tr" lang="tr">Alan 1 · Alan 2 · Alan 3</span></p> <!-- ✏️ -->
+     <p class="summary"> <!-- ✏️ 1-2 cümlelik özet -->
+      <span class="en">A short sentence or two about who you are and what you work on.</span><span class="tr" lang="tr">Kim olduğunu ve neyle uğraştığını anlatan bir-iki cümle.</span>
+     </p>
+    </div>
+    <aside class="profile-box" aria-label="Personal information">
+     <img class="profile-photo" src="images/profil.svg" alt="Profile photo"> <!-- ✏️ kendi fotoğrafın -->
+     <strong><span class="en">Contact</span><span class="tr" lang="tr">İletişim</span></strong>
+     <p><span class="en">Email:</span><span class="tr" lang="tr">E-posta:</span><br><a href="mailto:ornek@mail.com">ornek@mail.com</a></p> <!-- ✏️ -->
+     <p><span class="en">Phone:</span><span class="tr" lang="tr">Telefon:</span><br>+90 5XX XXX XX XX</p> <!-- ✏️ istersen bu satırı sil -->
+     <p><span class="en">Education:</span><span class="tr" lang="tr">Eğitim:</span><br><a href="https://okulunun-sitesi.com" target="_blank" rel="noopener noreferrer">Okulunun Adı</a></p> <!-- ✏️ -->
+    </aside>
+   </div>
+  </section>
+
+  <!-- ===== DENEYİM ===== -->
+  <section class="content-section" id="experience">
+   <div class="section-grid wrap">
+    <h2 class="section-label"><span class="en">Work and Project Experience</span><span class="tr" lang="tr">İş ve Proje Deneyimi</span></h2>
+    <div>
+     <article class="item"> <!-- ✏️ her deneyim için bu bloğu kopyala -->
+      <h3><span class="en">Position / Role</span><span class="tr" lang="tr">Pozisyon / Görev</span></h3>
+      <p class="item-meta">Şirket Adı, Şehir<span class="en"> · Month 2025 – Month 2025</span><span class="tr" lang="tr"> · Ay 2025 – Ay 2025</span></p>
+      <p><span class="en">What you did there, in one or two sentences.</span><span class="tr" lang="tr">Orada ne yaptığını bir-iki cümleyle anlat.</span></p>
+     </article>
+     <article class="item">
+      <h3><span class="en">Internship</span><span class="tr" lang="tr">Staj</span></h3>
+      <p class="item-meta">Şirket Adı, Şehir<span class="en"> · Month 2024 – Month 2024</span><span class="tr" lang="tr"> · Ay 2024 – Ay 2024</span></p>
+      <p><span class="en">Description.</span><span class="tr" lang="tr">Açıklama.</span></p>
+     </article>
+    </div>
+   </div>
+  </section>
+
+  <!-- ===== EĞİTİM ===== -->
+  <section class="content-section" id="education">
+   <div class="section-grid wrap">
+    <h2 class="section-label"><span class="en">Education</span><span class="tr" lang="tr">Eğitim</span></h2>
+    <div>
+     <article class="item"> <!-- ✏️ okul / kurs / sertifika -->
+      <h3><span class="en">School or Course Name</span><span class="tr" lang="tr">Okul veya Kurs Adı</span></h3>
+      <p class="item-meta">Kurum, Şehir<span class="en"> · 2023 – Present</span><span class="tr" lang="tr"> · 2023 – Devam ediyor</span></p>
+      <p><span class="en">Short description.</span><span class="tr" lang="tr">Kısa açıklama.</span></p>
+     </article>
+     <article class="item">
+      <h3><span class="en">Certificate</span><span class="tr" lang="tr">Sertifika</span></h3>
+      <p class="item-meta">Kurum<span class="en"> · Month 2024</span><span class="tr" lang="tr"> · Ay 2024</span></p>
+      <p><span class="en">Short description.</span><span class="tr" lang="tr">Kısa açıklama.</span></p>
+     </article>
+    </div>
+   </div>
+  </section>
+
+  <!-- ===== BECERİLER ===== -->
+  <section class="content-section" id="skills">
+   <div class="section-grid wrap">
+    <h2 class="section-label"><span class="en">Skills</span><span class="tr" lang="tr">Beceriler</span></h2>
+    <div class="skill-grid">
+     <article class="box">
+      <h3><span class="en">Technical Skills</span><span class="tr" lang="tr">Teknik Beceriler</span></h3>
+      <ul> <!-- ✏️ -->
+       <li><span class="en">Skill 1</span><span class="tr" lang="tr">Beceri 1</span></li>
+       <li><span class="en">Skill 2</span><span class="tr" lang="tr">Beceri 2</span></li>
+       <li><span class="en">Skill 3</span><span class="tr" lang="tr">Beceri 3</span></li>
+      </ul>
+     </article>
+     <article class="box">
+      <h3><span class="en">Languages</span><span class="tr" lang="tr">Diller</span></h3>
+      <ul> <!-- ✏️ -->
+       <li><span class="en">Turkish - Native</span><span class="tr" lang="tr">Türkçe - Ana dil</span></li>
+       <li><span class="en">English - B2</span><span class="tr" lang="tr">İngilizce - B2</span></li>
+      </ul>
+      <h3 class="box-subtitle"><span class="en">Hobbies and Interests</span><span class="tr" lang="tr">Hobiler ve İlgi Alanları</span></h3>
+      <ul> <!-- ✏️ -->
+       <li><span class="en">Hobby 1</span><span class="tr" lang="tr">Hobi 1</span></li>
+       <li><span class="en">Hobby 2</span><span class="tr" lang="tr">Hobi 2</span></li>
+      </ul>
+      <!-- Otomatik dönen 2 fotoğraflık mini slayt -->
+      <div class="mini-slider" role="group" aria-label="Hobby photo slideshow">
+       <div class="mini-slider-track">
+        <figure class="mini-slide">
+         <img src="images/hobi-1.svg" alt="Hobby photo 1"> <!-- ✏️ -->
+         <figcaption><span class="en">Hobby 1</span><span class="tr" lang="tr">Hobi 1</span></figcaption>
+        </figure>
+        <figure class="mini-slide">
+         <img src="images/hobi-2.svg" alt="Hobby photo 2"> <!-- ✏️ -->
+         <figcaption><span class="en">Hobby 2</span><span class="tr" lang="tr">Hobi 2</span></figcaption>
+        </figure>
+       </div>
+      </div>
+     </article>
+    </div>
+   </div>
+  </section>
+
+  <!-- ===== PROJELER ===== -->
+  <section class="content-section" id="projects">
+   <div class="section-grid wrap">
+    <h2 class="section-label"><span class="en">Projects</span><span class="tr" lang="tr">Projeler</span></h2>
+    <div class="project-grid">
+     <article class="box project-with-photo"> <!-- ✏️ her proje için kopyala -->
+      <img class="project-photo" src="images/proje-1.svg" alt="Project 1 photo">
+      <div>
+       <h3><span class="en">Project Name</span><span class="tr" lang="tr">Proje Adı</span></h3>
+       <p><span class="en">What the project is and what you did in it.</span><span class="tr" lang="tr">Projenin ne olduğu ve senin rolün.</span></p>
+      </div>
+     </article>
+     <article class="box project-with-photo">
+      <img class="project-photo" src="images/proje-2.svg" alt="Project 2 photo">
+      <div>
+       <h3><span class="en">Another Project</span><span class="tr" lang="tr">Başka Bir Proje</span></h3>
+       <p><span class="en">Description.</span><span class="tr" lang="tr">Açıklama.</span></p>
+      </div>
+     </article>
+    </div>
+   </div>
+  </section>
+
+  <!-- ===== İLETİŞİM ===== -->
+  <section class="content-section" id="contact">
+   <div class="section-grid wrap">
+    <h2 class="section-label"><span class="en">Contact</span><span class="tr" lang="tr">İletişim</span></h2>
+    <div class="info-grid">
+     <div class="box">
+      <h3><span class="en">Email</span><span class="tr" lang="tr">E-posta</span></h3>
+      <a href="mailto:ornek@mail.com">ornek@mail.com</a> <!-- ✏️ -->
+     </div>
+     <div class="box">
+      <h3><span class="en">Social Media</span><span class="tr" lang="tr">Sosyal Medya</span></h3>
+      <p class="contact-address">Instagram: <a href="https://www.instagram.com/kullaniciadi/" target="_blank" rel="noopener noreferrer">@kullaniciadi</a></p> <!-- ✏️ -->
+      <p>GitHub: <a href="https://github.com/kullaniciadi" target="_blank" rel="noopener noreferrer">@kullaniciadi</a></p> <!-- ✏️ -->
+     </div>
+    </div>
+   </div>
+  </section>
+ </main>
+
+ <footer>
+  <div class="wrap footer-inner">© 2026 AD SOYAD</div> <!-- ✏️ -->
+ </footer>
+</body>
+</html>
