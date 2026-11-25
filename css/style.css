@@ -290,10 +290,10 @@ li { margin-bottom: 4px; }
   width: 132px;
   height: 132px;
   display: block;
-  margin-bottom: 20px;
+  margin: 0 auto 20px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: center;
+  object-position: center 62%;
 }
 
 .profile-box strong {
